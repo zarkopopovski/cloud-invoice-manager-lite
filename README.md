@@ -42,3 +42,18 @@ Other functionalities that are implemented in PRO version are:
 
 ## Instalation
 
+Requirements: 
+
+*	PHP 5.2.X
+* 	MySQL 5.6.X
+*  Apache HTTP
+
+For personal use this project can be easy instaled on top on some bundle software packages like XAMPP, WAMP etc...
+
+After instalation on propper servers, the first step is importing and executing the SQL script with the database schema for the project. Next step is moving project into htdocs or some other folder web folder which will be accessible from the web. Third step is setting database configuration in file database.php which can be found at this path: /application/config/database.php .
+
+That's it, just create account from web and you can start with creating invoices.
+
+As open source software you can do whatever you want with it, everything is on your risk.
+
+I dont take responsibility from wrong actions.

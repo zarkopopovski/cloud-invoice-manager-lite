@@ -2,8 +2,8 @@
 
 ##Simple invoicing management software
 
-**Cloud Invoice Manager Lite** is basic and open source version of Cloud Invoice Manager, software which is used for managing financies in the company.
-It is based on most used PHP MVC framework Codeigniter 2.1.4, which is high performance web framework, with many additional libraries used for reporting, mailing, caching etc.
+**Cloud Invoice Manager Lite** is a basic and open source version of Cloud Invoice Manager, software which is used for managing financies in the company.
+It is based on most used PHP MVC framework Codeigniter 2.1.4, which is high performance web framework, Twitter Bootstrap and jQuery. This project contain many additional libraries used for reporting, mailing, caching etc. which are integrated into Codeigniter.
 
 Available functions:
 
@@ -12,12 +12,12 @@ Available functions:
 * 	Invoices management
 
 ###Customer management
-Customer management covers infinite number of customers registration and customers information management, also customers groups registration and grouping customers in each registered customer group for easier future ordering and implementation on features per customer group.  This functionality also allow direct preview on every customer invoice for easier status tracking.
+Customer management covers infinite number of customers registration and customers information management, also customers groups registration, grouping customers in each registered customer group for easier future ordering and implementation on features per customer group.  This functionality also allow direct preview on every customer invoice for easier status tracking.
 
 PRO version also implements realtime communication with the customer and realtime colaboration.
 
 ###Products management
-Products management covers infinite number of products registration and products management.  Every product can be add in products group for easier products management and ordering.
+Products management covers infinite number of products registration and products management.  Every product can be add in products category for easier products management and ordering.
 
 PRO version also implements multiple realtime inventories so product quantity can be managed and tracked per inventory but also multiple shops registration so products can be ordered directly from the shop.
 
@@ -40,7 +40,7 @@ Other functionalities that are implemented in PRO version are:
 *  Reports
 *  etc...
 
-## Instalation
+## Installation
 
 Requirements: 
 
@@ -48,12 +48,17 @@ Requirements:
 * 	MySQL 5.6.X
 *  Apache HTTP
 
-For personal use this project can be easy instaled on top on some bundle software packages like XAMPP, WAMP etc...
+For personal use this project can be easy installed on top on some bundle software packages like XAMPP, WAMP etc...
 
-After instalation on propper servers, the first step is importing and executing the SQL script with the database schema for the project. Next step is moving project into htdocs or some other folder web folder which will be accessible from the web. Third step is setting database configuration in file database.php which can be found at this path: /application/config/database.php .
+Installation steps:
+
+1.	Propper servers installation.
+2. Importing and executing the SQL script with the database schema.
+3. Copying project files into htdocs or other web folder.
+4. Setting database configuration in file database.php which can be found at this path: /application/config/database.php.
 
 That's it, just create account from web and you can start with creating invoices.
 
-As open source software you can do whatever you want with it, everything is on your risk.
+As open source software you can do whatever you want with it, everything is on your own risk.
 
 I dont take responsibility from wrong actions.

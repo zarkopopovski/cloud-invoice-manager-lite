@@ -838,7 +838,7 @@ class Customer_Model extends CI_Model {
 			return FALSE;
 		}
 
-		return array("productID"=>$product_id, "productsPriceID"=>$productsPriceID);;
+		return array("productID"=>$product_id, "productsPriceID"=>$productsPriceID);
 
 	}
 

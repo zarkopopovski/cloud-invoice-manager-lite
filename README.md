@@ -44,7 +44,7 @@ Other functionalities that are implemented in PRO version are:
 
 Requirements: 
 
-*	PHP 5.2.X
+*	PHP 5.4.X
 * 	MySQL 5.6.X
 *  Apache HTTP
 
